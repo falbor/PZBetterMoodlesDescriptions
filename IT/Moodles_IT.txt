@@ -1,0 +1,66 @@
+Moodles_IT = {
+	-- Descrizione di moodle:
+	-- Resistenza
+	Moodles_endurance_desc_lvl1 = "25%^ Esaurito<br>visione per il foraggiamento leggermente ridotta<br>-50% danno da mischia<br>-7% velocità di attacco<br>+10% probabilità di inciampare durante il salto<br>-5% probabilità di scavalcare recinzioni alte<br>-19% velocità<br>-2% probabilità di bloccare attacchi frontali di zombi",
+	Moodles_endurance_desc_lvl2 = "50%^ Esaurito<br>visione per il foraggiamento ridotta e più scura<br>-80% danno da mischia<br>-14% velocità di attacco<br>+20% probabilità di inciampare durante il salto<br>-10% probabilità di scavalcare recinzioni alte<br>-37% velocità<br>-4% probabilità di bloccare attacchi frontali di zombi<br>non puoi correre",
+	Moodles_endurance_desc_lvl3 = "75%^ Esaurito<br>visione per il foraggiamento terribile e più scura<br>-90% danno da mischia<br>-21% velocità di attacco<br>+30% probabilità di inciampare durante il salto<br>-15% probabilità di scavalcare recinzioni alte<br>-56% velocità<br>-6% probabilità di bloccare attacchi frontali di zombi<br>non puoi correre<br>non puoi camminare velocemente<br>non puoi fare esercizio",
+	Moodles_endurance_desc_lvl4 = "90%^ Esaurito<br>visione per il foraggiamento terribile e più scura<br>-95% danno da mischia<br>-28% velocità di attacco<br>+40% probabilità di inciampare durante il salto<br>-20% probabilità di scavalcare recinzioni alte<br>-75% velocità<br><br>-8% probabilità di bloccare attacchi frontali di zombi<br>non puoi correre<br>non puoi camminare velocemente<br>non puoi fare esercizio<br>non puoi usare armi pesanti",
+	-- Carico pesante
+	Moodles_heavyload_desc_lvl1 = "100%^ Sopra capacità<br>-5% probabilità di critico<br>-7% velocità di attacco<br>+13% probabilità di inciampare durante il salto<br>-8% probabilità di scavalcare recinzioni alte<br>-19% velocità<br>-2% probabilità di bloccare attacchi frontali di zombi<br>recupero della resistenza ridotto",
+	Moodles_heavyload_desc_lvl2 = "125%^ Sopra capacità<br>-10% probabilità di critico<br>-14% velocità di attacco<br>+26% probabilità di inciampare durante il salto<br>-16% probabilità di scavalcare recinzioni alte<br>-37% velocità<br>-4% probabilità di bloccare attacchi frontali di zombi<br>recupero della resistenza fortemente ridotto<br>non puoi correre",
+	Moodles_heavyload_desc_lvl3 = "150%^ Sopra capacità<br>-15% probabilità di critico<br>-21% velocità di attacco<br>+39% probabilità di inciampare durante il salto<br>-24% probabilità di scavalcare recinzioni alte<br>-56% velocità<br>-6% probabilità di bloccare attacchi frontali di zombi<br>non puoi recuperare resistenza<br>non puoi correre<br>non puoi fare esercizio<br>perdi HP",
+	Moodles_heavyload_desc_lvl4 = "175%^ Sopra capacità<br>-20% probabilità di critico<br>-28% velocità di attacco<br>+52% probabilità di inciampare durante il salto<br>-32% probabilità di scavalcare recinzioni alte<br>-75% velocità<br>-8% probabilità di bloccare attacchi frontali di zombi<br>perdi resistenza<br>non puoi correre<br>non puoi fare esercizio<br>perdi HP",
+	-- Stanco
+	Moodles_tired_desc_lvl1 = "60%^ Stanco<br>visione per il foraggiamento leggermente ridotta e più scura<br>-50% danno da mischia<br>accuratezza leggermente ridotta<br>visione leggermente ridotta<br>consapevolezza ridotta<br>maggiore rigidità muscolare<br>recupero della resistenza ridotto<br>-3% probabilità di bloccare attacchi frontali di zombi",
+	Moodles_tired_desc_lvl2 = "70%^ Stanco<br>visione per il foraggiamento ridotta e più scura<br>-80% danno da mischia<br>accuratezza ridotta<br>visione ridotta<br>consapevolezza severamente ridotta<br>maggiore rigidità muscolare<br>recupero della resistenza fortemente ridotto<br>-6% probabilità di bloccare attacchi frontali di zombi",
+	Moodles_tired_desc_lvl3 = "80%^ Stanco<br>visione per il foraggiamento terribile e più scura<br>-90% danno da mischia<br>accuratezza fortemente ridotta<br>visione fortemente ridotta<br>consapevolezza terribile<br>maggiore rigidità muscolare<br>recupero della resistenza terribile<br>puoi dormire nonostante il dolore forte<br>-9% probabilità di bloccare attacchi frontali di zombi",
+	Moodles_tired_desc_lvl4 = "90%^ Stanco<br>visione per il foraggiamento terribile e più scura<br>-95% danno da mischia<br>accuratezza terribile<br>visione terribile<br>non puoi vedere dietro di te<br>maggiore rigidità muscolare<br>non puoi recuperare resistenza<br>puoi dormire nonostante il dolore forte<br>-12% probabilità di bloccare attacchi frontali di zombi",
+	-- Non può correre
+	Moodles_CantSprint_desc = "abbigliamento pesante, borse o oggetti ti rallentano!<br>non puoi correre",
+	-- Assetato
+	Moodles_thirst_desc_lvl1 = "12%^ Assetato<br>nessun effetto",
+	Moodles_thirst_desc_lvl2 = "25%^ Assetato<br>-1 capacità di trasporto<br>-35% guarigione più veloce<br>aumento della temperatura corporea",
+	Moodles_thirst_desc_lvl3 = "70%^ Assetato<br>-2 capacità di trasporto<br>-65% guarigione più veloce<br>aumento rapido della temperatura corporea",
+	Moodles_thirst_desc_lvl4 = "84%^ Assetato<br>-2 capacità di trasporto<br>-100% guarigione più veloce<br>aumento rapido della temperatura corporea<br>perdi HP",
+	-- Affamato
+	Moodles_hungry_desc_lvl1 = "15%^ Affamato<br>+7.5% visione per il foraggiamento per trovare cibo",
+	Moodles_hungry_desc_lvl2 = "25%^ Affamato<br>+12.5% visione per il foraggiamento per trovare cibo<br>-1 capacità di trasporto<br>-15% temperatura corporea<br>-35% guarigione più veloce",
+	Moodles_hungry_desc_lvl3 = "45%^ Affamato<br>+22.5% visione per il foraggiamento per trovare cibo<br>-2 capacità di trasporto<br>-35% temperatura corporea<br>-60% guarigione più veloce",
+	Moodles_hungry_desc_lvl4 = "70%^ Affamato<br>+35% visione per il foraggiamento per trovare cibo<br>-2 capacità di trasporto<br>-50% temperatura corporea<br>-100% guarigione più veloce<br>perdi HP",
+	-- Cibo mangiato
+	Moodles_foodeaten_desc_lvl1 = "13 secondi di sazietà<br>+2 capacità di trasporto<br>+15% guarigione più veloce",
+	Moodles_foodeaten_desc_lvl2 = "14,6 secondi di sazietà<br>+2 capacità di trasporto<br>+30% guarigione più veloce",
+	Moodles_foodeaten_desc_lvl3 = "16,2 secondi di sazietà<br>+2 capacità di trasporto<br>+45% guarigione più veloce<br>non puoi mangiare più cibo",
+	Moodles_foodeaten_desc_lvl4 = "17,8 secondi di sazietà<br>+2 capacità di trasporto<br>+60% guarigione più veloce<br>non puoi mangiare più cibo",
+	-- Ubriaco
+	Moodles_drunk_desc_lvl1 = "10%^ Ubriaco<br>visione per il foraggiamento leggermente ridotta<br>la noia diminuisce lentamente<br>leggermente aumentato affaticamento<br>leggermente ridotta la precisione nella guida<br>leggermente ridotta la precisione<br>la temperatura corporea diminuisce leggermente",
+	Moodles_drunk_desc_lvl2 = "30%^ Ubriaco<br>visione per il foraggiamento ridotta<br>la noia diminuisce<br>aumento dell'affaticamento<br>precisione di guida ridotta<br>precisione ridotta<br>la temperatura corporea diminuisce",
+	Moodles_drunk_desc_lvl3 = "50%^ Ubriaco<br>visione per il foraggiamento severamente ridotta<br>la noia diminuisce più velocemente<br>aumento severo dell'affaticamento<br>severamente ridotta la precisione nella guida<br>severamente ridotta la precisione<br>la temperatura corporea diminuisce più velocemente",
+	Moodles_drunk_desc_lvl4 = "70%^ Ubriaco<br>visione per il foraggiamento terribile<br>la noia diminuisce velocemente<br>aumento terribile dell'affaticamento<br>terribilmente ridotta la precisione nella guida<br>precisione terribile<br>la temperatura corporea diminuisce velocemente",
+	-- Noioso
+	Moodles_bored_desc_lvl1 = "25%^ Noioso<br>nessun effetto",
+	Moodles_bored_desc_lvl2 = "50%^ Noioso<br>la tristezza aumenta leggermente",
+	Moodles_bored_desc_lvl3 = "75%^ Noioso<br>la tristezza aumenta",
+	Moodles_bored_desc_lvl4 = "90%^ Noioso<br>la tristezza aumenta velocemente",
+	-- Triste
+	Moodles_unhappy_desc_lvl1 = "20%^ Triste<br>-10% azioni più lente",
+	Moodles_unhappy_desc_lvl2 = "45%^ Triste<br>-20% azioni più lente",
+	Moodles_unhappy_desc_lvl3 = "60%^ Triste<br>-30% azioni più lente",
+	Moodles_unhappy_desc_lvl4 = "80%^ Triste<br>-40% azioni più lente",
+	-- Arrabbiato
+	Moodles_angry_desc_lvl1 = "25%^ Arrabbiato<br>nessun effetto",
+	Moodles_angry_desc_lvl2 = "50%^ Arrabbiato<br>nessun effetto",
+	Moodles_angry_desc_lvl3 = "75%^ Arrabbiato<br>nessun effetto",
+	Moodles_angry_desc_lvl4 = "90%^ Arrabbiato<br>nessun effetto",
+	-- Stressato
+	Moodles_stress_desc_lvl1 = "25%^ Stressato<br>visione per il foraggiamento leggermente ridotta",
+	Moodles_stress_desc_lvl2 = "50%^ Stressato<br>visione per il foraggiamento ridotta e più scura<br>-0.1 danno<br>la tristezza aumenta leggermente",
+	Moodles_stress_desc_lvl3 = "75%^ Stressato<br>visione per il foraggiamento severamente ridotta e più scura<br>-0.2 danno<br>la tristezza aumenta",
+	Moodles_stress_desc_lvl4 = "90%^ Stressato<br>visione per il foraggiamento terribile e molto scura<br>-0.3 danno<br>la tristezza aumenta velocemente",
+	-- Panico
+	Moodles_panic_desc_lvl1 = "6%^ In panico<br>visione per il foraggiamento leggermente ridotta<br>-1.3% probabilità di critico<br>tempi di ricarica e velocità peggiorati<br>tempo di rack peggiorato",
+	Moodles_panic_desc_lvl2 = "30%^ In panico<br>visione per il foraggiamento leggermente ridotta<br>-2.6% probabilità di critico<br>-0.1 danno da mischia<br>ti alzi più velocemente da seduto<br>peggioramento knockback<br>peggioramento possibilità di knockdown<br>peggioramento precisione<br>tempi di ricarica e velocità peggiorati<br>tempo di rack peggiorato",
+	Moodles_panic_desc_lvl3 = "65%^ In panico<br>visione per il foraggiamento ridotta e più scura<br>-3.9% probabilità di critico<br>-0.2 danno da mischia<br>-0.4 danno da distanza (se il livello di mira è inferiore a 6)<br>ti alzi più velocemente da seduto<br>peggioramento knockback<br>peggioramento possibilità di knockdown<br>peggioramento precisione<br>tempi di ricarica e velocità peggiorati<br>tempo di rack peggiorato",
+	Moodles_panic_desc_lvl4 = "90%^ In panico<br>visione per il foraggiamento terribile e più scura<br>-5.2% probabilità di critico<br>-0.4 danno da mischia<br>-0.6 danno da distanza (se il livello di mira è inferiore a 6)<br>ti alzi più velocemente da seduto<br>peggioramento knockback<br>peggioramento possibilità di knockdown<br>peggioramento precisione<br>tempi di ricarica e velocità peggiorati<br>tempo di rack peggiorato",
+	-- Il resto sono descrizioni per gli altri effetti negativi
+}
